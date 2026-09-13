@@ -1,0 +1,93 @@
+
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Charm);
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* The Font Family- Really important!! */
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #c0c9ce;
+}
+
+/* reset for images to ensure they ar 100% of the parent container width */
+img {
+    width: 100%;
+}
+
+.line {
+  border: none;
+  height: 4px;            
+  background-color: #4f6351; 
+  margin: 0;             
+  width: 100%;            
+}
+/* Haupt-Container der Menüleiste */
+.navbar {
+  background-color: #F0E8DA; /* Dunkler Hintergrund */
+  overflow: hidden;
+}
+
+/* Liste ohne Punkte und Abstände zurücksetzen */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-around;
+  width: 100%; /* Richtet die Einträge nebeneinander aus */
+}
+
+/* Einzelne Links stylen */
+.navbar a {
+  display: block;
+  color: #4f6351;
+  font-family: Charm;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; /* Unterstreichung entfernen */
+}
+
+.navbar a:hover {
+  background-color: #c0c9ce; 
+}
+
+/* The hero section styling- use your OWN Hero Image URL here */
+
+
+.hero {
+    background-image: url('images/mountainspic.webp');
+    height: 29vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0E8DA;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    font-family: Charm; 
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+}
+
+/* BIG text styling for the hero section text */
+.hero-text {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #F0E8DA;
+    color: #4f6351;
+    text-align: right;
+    padding: 3em 3em;
+}

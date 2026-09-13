@@ -1,0 +1,155 @@
+/* A simple css reset */
+
+@import url(https://fonts.googleapis.com/css?family=Spicy+Rice);
+@import url(https://fonts.googleapis.com/css?family=Charm);
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* The Font Family- Really important!! */
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #c0c9ce;
+}
+
+/* reset for images to ensure they ar 100% of the parent container width */
+img {
+    width: 100%;
+}
+
+.line {
+  border: none;
+  height: 4px;            
+  background-color: #4f6351; 
+  margin: 0;             
+  width: 100%;            
+}
+
+
+.navbar {
+  background-color: #F0E8DA; 
+  overflow: hidden;
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-around;
+  width: 100%; 
+}
+
+
+.navbar a {
+  display: block;
+  color: #4f6351;
+  font-family: Charm;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; 
+}
+
+.navbar a:hover {
+  background-color: #c0c9ce; 
+}
+
+
+.hero {
+    background-image: url('images/mountainspic.webp');
+    height: 29vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0E8DA;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    font-family: Charm; 
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+}
+
+
+.hero-text {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+/* nice big font on a banner style background */
+.topic-title{
+    color: #4f6351;
+    font-size: 1.5em;
+    padding: 0.1em 3em;
+    margin: 30px;
+    background-color:#F0E8DA;
+    border-radius: 10px;
+    border:#4f6351 solid 4px,
+
+}
+
+
+
+.topic1, .topic2 {
+   color: #4f6351;
+    font-size: 1em;
+    padding: 0.1em 3em;
+    margin: 30px;
+    background-color:#F0E8DA;
+    border-radius: 10px;
+    border:#4f6351 solid 4px,
+
+}
+
+.topic1 .topic2 h1 {
+  margin-bottom: 5px;
+
+} 
+
+.card {
+  display: flex;
+  align-items: flex-start; 
+  gap: 40px; 
+}          
+
+.card-text {
+  flex: 1;             
+}
+
+.card-img {
+  max-width: 300px;    
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.note {
+  position: absolute;   
+  top: 38%;            
+  right: 25%;         
+  width: 200px;         
+  
+ 
+  transform: rotate(4deg);
+  z-index: 10;             
+  
+  mix-blend-mode: multiply;
+}
+
+
+
+
+.footer{
+    background-color: #F0E8DA;
+    color: #4f6351;
+    text-align: right;
+    padding: 3em 3em;
+}
