@@ -25,7 +25,7 @@ img {
   margin: 0;             
   width: 100%;            
 }
-/* Haupt-Container der Menüleiste */
+
 .navbar {
   background-color: #F0E8DA; /* Dunkler Hintergrund */
   overflow: hidden;
@@ -85,9 +85,38 @@ img {
     font-weight: bold;
 }
 
+.first {
+  margin-top: 20px;
+}
+
+details {
+    background-color: #F0E8DA;
+    color: #4f6351;
+    padding: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border:#4f6351 solid 4px;
+}
+
+summary {
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details p {
+    margin: 10px 0 0 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
 .footer{
     background-color: #F0E8DA;
     color: #4f6351;
     text-align: right;
     padding: 3em 3em;
+    margin-top: 20px;
 }

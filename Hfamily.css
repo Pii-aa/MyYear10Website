@@ -92,3 +92,35 @@ img {
     text-align: right;
     padding: 3em 3em;
 }
+
+.topic1, .topic2 {
+   color: #4f6351;
+    font-size: 1em;
+    padding: 0.1em 3em;
+    margin: 30px;
+    background-color:#F0E8DA;
+    border-radius: 10px;
+    border:#4f6351 solid 4px,
+
+}
+
+.topic1 .topic2 h1 {
+  margin-bottom: 5px;
+
+} 
+
+.card {
+  display: flex;
+  align-items: flex-start; 
+  gap: 40px; 
+}          
+
+.card-text {
+  flex: 1;             
+}
+
+.card-img {
+  max-width: 300px;    
+  height: auto;
+  margin-bottom: 30px;
+}
